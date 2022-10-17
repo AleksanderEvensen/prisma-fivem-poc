@@ -1,0 +1,19 @@
+{
+	"name": "prisma-fivem",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./scripts/build.js"
+	},
+	"devDependencies": {
+		"@citizenfx/server": "^2.0.5961-1",
+		"@types/node": "^18.11.0",
+		"esbuild": "^0.15.11",
+		"esbuild-plugin-fileloc": "^0.0.6",
+		"prisma": "^4.4.0"
+	},
+	"dependencies": {
+		"@prisma/client": "^4.4.0"
+	}
+}
